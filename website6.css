@@ -1,0 +1,95 @@
+#web6{
+    width: 100%;
+    font-family: sans-serif;
+    margin-left: 6%;
+
+}
+
+#web6 h1{
+    font-weight: 400;
+}
+#web6 hr{
+    border:1px solid#eee9e9 ;
+    width: 88%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+}
+#web6 table{
+     border-color:#cfcfcf;
+    border-collapse: collapse;
+     width:88%;
+    height:250px; 
+    text-align: center;
+}
+#web6 tr{
+    height:35px;
+    width: 100%;
+}
+#web6 tr th{
+    font-weight: 500;
+    background-color: #F1F1F1;
+}
+#web6 .column2{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+}
+
+#web6 .anh{
+    width: 95px;
+    height:96px;
+    margin-top: -30px;
+}
+#web6 .anh img{
+    width:80px;
+    height:96px;
+}
+#web6 .text{
+width: 400px;
+height:25px;
+margin-top: -30px;
+}
+#web6 .text h3{
+    font-weight:500;
+    text-align: start;
+}
+#web6 .text p{
+    text-align: start;
+   margin-top: -25px;
+}
+#web6 .gia{
+    color:#FF1818;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#web6 .tongtien {
+    text-align:end;
+    margin-right: 12%;
+    margin-top: 20px;
+}
+#web6 .tongtien .tt{
+    color: black;
+    font-size: 20px;
+}
+#web6 .tongtien  span{
+    color:#796752;
+    font-size: 20px;
+}
+h2{
+    font-weight: 400;
+}
+#web6 h4{
+    font-weight: 400;
+}
+#web6 .ttkh{
+    display: flex;
+    margin-top: 10px;
+}
+#web6 .label{
+    width: 300px;
+    height:18px;
+}

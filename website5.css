@@ -1,0 +1,242 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #web5 {
+        width: 100%;
+        height: 750px;
+        margin-top: 50px;
+        font-family: SANS-SERIF;
+         display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start; 
+    }
+    @media only screen and (max-width:300px){
+        #web5{
+          display: grid;
+          justify-content: center;
+          flex-direction: row;
+        }
+        
+        .thongtinkh,.thongtindh{
+            flex-direction: column;
+        }
+        
+    }
+    #web5 .thongtinkh {
+        width: 37%;
+        height: 750px;
+        min-width: 300px;
+        margin-left: 10%;
+    }
+
+    #web5 .thongtinkh input {
+        margin-top: 12px;
+        width: 100%;
+        height: 30px;
+    }
+
+    #web5 .thongtinkh .mausd,
+    .muat {
+        width: 80%;
+        height: 20px;
+    }
+
+    #web5 .thongtinkh .muasd,
+    #web5 .thongtinkh .muat {
+        height: 13px;
+        width: 13px;
+        margin-top: 12px;
+    }
+
+    /*dieu khoan*/
+    #web5 .thongtinkh .dieukhoan .content {
+        background-color: #E8E8E8;
+        text-align: center;
+    }
+
+    #web5 .thongtinkh .dieukhoan .text {
+        width: 100%;
+        height: 200px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    #multip {
+        display: flex;
+        min-width: 400px;
+        align-items: center;
+    }
+
+    #multip input {
+        max-width: 20px;
+    }
+
+    #multip p {
+        min-width: 300px;
+        font-size: 15px;
+        display: grid;
+        align-items: center;
+        height: 10px;
+    }
+
+
+    #web5 .thongtinkh .dathang button {
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        color: white;
+        background-color: #796752;
+        border-radius: 5px;
+    }
+
+    #web5 .thongtinkh .dathang button:hover {
+        background-color: rgb(42, 42, 168);
+    }
+
+    /*day thu hai*/
+    #web5 .thongtindh {
+        width: 40%;
+        height: 700px;
+        min-width: 300px;
+        background-color: #efefef;
+        margin-right: 8%;
+        margin-left: 4%;
+        border: 1px solid #efefef;
+    }
+
+    #web5 .thongtindh .donhang {
+        display: flex;
+    }
+
+    #web5 .thongtindh .donhang .sp {
+        margin-top: 50px;
+    }
+
+    #web5 .thongtindh .donhang .anhsp {
+        width: 88px;
+        height: 106px;
+        margin-left: 20px;
+    }
+
+    #web5 .thongtindh .donhang .anhsp img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid gray;
+    }
+
+    #web5 .thongtindh .donhang .thongtinsp {
+        margin-left: 20px;
+    }
+
+    .thongtindh .donhang .thongtinsp .tensp a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #web5 .donhang .thongtinsp .tensp a:hover {
+        color: #ada090;
+    }
+
+    .thongtindh .donhang .xoasp a {
+        color: black;
+    }
+
+    #web5 .thongtindh .donhang .xoasp a:hover {
+        color: #b1a18f;
+    }
+
+    #web5 .thongtindh .donhang .soluongsp {
+        width: 30px;
+        height: 25px;
+        margin-left: 10%;
+    }
+
+    #web5 .thongtindh .donhang .soluongsp input {
+        width: 100%;
+        height: 100%;
+    }
+
+    #web5 .thongtindh .donhang .giasp {
+        width: 100px;
+        height: 23px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    #web5 .thongtindh .donhang .giasp span {
+        color: red;
+        font-size: 20px;
+    }
+
+    /*lua chon*/
+    #web5 .thongtindh .luachon .nut {
+        background-color: #796752;
+        height: 30px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border: #796752;
+        border-radius: 5px;
+    }
+
+    #web5 .thongtindh .luachon .nut a {
+        text-decoration: none;
+        color: white;
+        padding: 12px;
+        font-size: 17px;
+    }
+
+    #web5 .thongtindh .luachon .nut:hover {
+        background-color: rgb(42, 42, 168);
+    }
+
+    /*khuyến mãi*/
+    #web5 .thongtindh .khuyenmai {
+        width: 86%;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 5%;
+        border-top: 1px solid rgb(206, 205, 205);
+        border-bottom: 1px solid rgb(206, 205, 205);
+        padding: 15px;
+    }
+
+    #web5 .thongtindh .khuyenmai input {
+        width: 80%;
+        height: 30px;
+        float: left;
+        border-color: white;
+    }
+
+    #web5 .thongtindh .khuyenmai button {
+        color: white;
+        background-color: #796752;
+        width: 17%;
+        height: 34px;
+        border-color: #796752;
+    }
+
+    /*tong tien*/
+    #web5 .thongtindh .tongtien {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #web5 .thongtindh .tongtien .text {
+        margin-left: 50px;
+        margin-top: 18px;
+        font-size: 25px;
+    }
+
+    #web5 .thongtindh .tongtien .number {
+        color: red;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 50px;
+        text-align: center;
+    }
